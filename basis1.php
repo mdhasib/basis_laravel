@@ -63,3 +63,12 @@ echo"</pre>";
         echo"<br>";
     }
 ?>
+
+<?php
+    for($i=65; $i>0; $i--){
+        for($z=1; $z<=$i; $z++){
+            echo"$z ";
+        }
+        echo"<br>";
+    }
+?>
