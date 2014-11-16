@@ -37,7 +37,7 @@ var_dump($e, $f);
 
 // --------------------
 // "&&" has a greater precedence than "and"
-
+//hhhhh
 // The result of the expression (true && false) is assigned to $g
 // Acts like: ($g = (true && false))
 $g = true && false;
