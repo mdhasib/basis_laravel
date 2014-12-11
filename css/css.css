@@ -1,0 +1,87 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+/*	color: #fff;*/
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: 50px; /* will be 0*/
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(../img/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+.error{
+	position: absolute;
+	top: 35px;
+	left:  35px;
+	z-index: 3;
+}
+/*body css end here*/
+.container{
+	width:100%;"
+}
+.right_part{
+	width:280px; /*280+padding 20 = 300px*/
+	height: auto;
+	float: left; 
+	background-color: red;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.left_part{
+	float: left;
+}
+#main_part{
+	margin-left: 40px;
+	margin-top: 20px;
+	min-height: 1200px
+	position: relative;
+}
+.form_bar{
+	background-color: #c80042;
+	border: 1px solid #bbb;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+	padding: 10px;
+}
+.student_info_update{
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	border-color: #bbb;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	padding: 10px;
+}
+#main_content{
+	text-align: left;
+}
+.formsh1{
+	font-size: 24px !important;
+	line-height: 30px;
+}
+.labelmic{
+	color: #666666;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: xx-small;
+}
+.name{
+	margin-right: 10px !important;
+    width: 100px !important;
+}
+.clearboth{
+	clear: both;
+}
+.st_pre_data{
+	float: left;
+}
